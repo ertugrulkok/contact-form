@@ -1,0 +1,48 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+.title {
+  letter-spacing: 2px;
+}
+form {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  padding-left: 8px;
+  background-color: grey;
+  font-size: 17px;
+  color: white;
+}
+
+label {
+  margin-bottom: 3px;
+}
+
+button {
+  margin: 1rem;
+  padding: 1rem 4rem;
+  border: none;
+  background-color: rgb(119, 3, 3);
+  color: white;
+  font-size: 1.2rem;
+}
